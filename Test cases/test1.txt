@@ -1,6 +1,15 @@
 <div
-    class="d-none d-sm-block"
->
+    class="d-none d-sm-block">
+    <nav
+        class="nav nav-tabs flex-column"
+    >
+        <a class="nav-link active" href="#" aria-current="page"
+            >Active link</a
+        >
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link disabled" href="#">Disabled link</a>
+    </nav>
+    
     
     
 </div>
