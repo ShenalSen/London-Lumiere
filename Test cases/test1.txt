@@ -1,42 +1,50 @@
+<button
+    type="button"
+    class="btn btn-secondary"
+    data-bs-container="body"
+    data-bs-toggle="popover"
+    data-bs-placement="top"
+    title="Popup title"
+    data-bs-content="Popup content"
+>
+    Trigger
+</button>
 
-<div class="row align-items-md-stretch">
-    <div class="col-md-6">
-        <div
-            class="h-100 p-5 text-white bg-primary border rounded-3"
-        >
-            <h2>Change the background</h2>
-            <p>
-                Swap the background-color utility and add a `.text-*` color
-                utility to mix up the jumbotron look. Then, mix and match with
-                additional component themes and more.
-            </p>
-            <button
-                class="btn btn-outline-primary"
-                type="button"
-            >
-                Example button
-            </button>
+<div
+    class="container-fluid"
+>
+    bs5-grid-row
+</div>
+
+<div
+    class="d-none d-sm-block"
+>
+    Some Word
+</div>
+
+<div class="card mb-3" style="max-width: 540px;" >
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img
+                src="Image Source"
+                class="img-fluid rounded-start"
+                alt="Card title"
+            />
         </div>
-    </div>
-    <div class="col-md-6">
-        <div
-            class="h-100 p-5 bg-primary border rounded-3"
-        >
-            <h2>Add borders</h2>
-            <p>
-                Or, keep it light and add a border for some added definition
-                to the boundaries of your content. Be sure to look under the
-                hood at the source HTML here as we've adjusted the alignment and
-                sizing of both column's content for equal-height.
-            </p>
-            <button
-                class="btn Swap the background-color utility and add a `.text-*` color
-                utility to mix up the jumbotron look. Then, mix and match with
-                additional component themes and more."
-                type="button"
-            >
-                Example button
-            </button>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                </p>
+                <p class="card-text">
+                    <small class="text-muted"
+                        >Last updated 3 mins ago</small
+                    >
+                </p>
+            </div>
         </div>
     </div>
 </div>
