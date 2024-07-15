@@ -1,51 +1,23 @@
-<button
-    type="button"
-    class="btn btn-secondary"
-    data-bs-container="body"
-    data-bs-toggle="popover"
-    data-bs-placement="top"
-    title="Popup title"
-    data-bs-content="Popup content"
->
-    Trigger
-</button>
-
-<div
-    class="container-fluid"
->
-    bs5-grid-row
-</div>
-
-<div
-    class="d-none d-sm-block"
->
-    Some Word
-</div>
-
-<div class="card mb-3" style="max-width: 540px;" >
-    <div class="row g-0">
-        <div class="col-md-4">
-            <img
-                src="Image Source"
-                class="img-fluid rounded-start"
-                alt="Card title"
-            />
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                </p>
-                <p class="card-text">
-                    <small class="text-muted"
-                        >Last updated 3 mins ago</small
-                    >
-                </p>
-            </div>
-        </div>
+<div class="btn-group">
+    <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="triggerId"
+        data-bs-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+    >
+        This dropdown's menu is start/end-aligned
+    </button>
+    <div
+        class="dropdown-menu dropdown-menu-start"
+        aria-labelledby="triggerId"
+    >
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item disabled" href="#">Disabled action</a>
+        <h6 class="dropdown-header">Section header</h6>
+        <a class="dropdown-item" href="#">Action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">After divider action</a>
     </div>
 </div>
-
