@@ -21,3 +21,13 @@
         <a class="dropdown-item" href="#">After divider action</a>
     </div>
 </div>
+
+<figure class="figure">
+    <img src="" class="figure-img img-fluid rounded" alt="" />
+    <figcaption
+        class="figure-caption text-start"
+    >
+        Some Word
+    </figcaption>
+</figure>
+
