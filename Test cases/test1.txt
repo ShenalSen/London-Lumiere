@@ -98,3 +98,15 @@
 </div>
 
 
+<!-- You can dismiss by clicking somewhere -->
+<a
+    tabindex="0"
+    class="btn btn-secondary"
+    data-bs-toggle="popover"
+    data-bs-trigger="focus"
+    title="Popup title"
+    data-bs-content="Popup content"
+    >Trigger</a
+>
+
+
