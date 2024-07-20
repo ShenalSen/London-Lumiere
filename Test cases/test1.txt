@@ -97,16 +97,13 @@
     </div>
 </div>
 
-
-<!-- You can dismiss by clicking somewhere -->
-<a
-    tabindex="0"
-    class="btn btn-secondary"
-    data-bs-toggle="popover"
-    data-bs-trigger="focus"
-    title="Popup title"
-    data-bs-content="Popup content"
-    >Trigger</a
+<div
+    class="alert alert-primary"
+    role="alert"
 >
-
+    <h4 class="alert-heading">Alert Heading</h4>
+    <p>Alert Content</p>
+    <hr />
+    <p class="mb-0">Alert Description</p>
+</div>
 
